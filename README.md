@@ -1,8 +1,8 @@
 <!--lint disable awesome-github-->
 
-# Awesome Claude [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Claude + Codex [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome resources for Claude, Claude Code, Model Context Protocol, and agentic development workflows.
+> A curated list of awesome resources for Claude, Claude Code, OpenAI Codex, Model Context Protocol, plugins, and agentic development workflows.
 
 [<img src="assets/awesomeclaude.svg" alt="Awesome Claude logo" align="right" width="120">](https://awesomeclaude.ai)
 
@@ -10,6 +10,7 @@
 
 - [Official Resources](#official-resources)
 - [Claude Code](#claude-code)
+- [OpenAI Codex](#openai-codex)
 - [Model Context Protocol](#model-context-protocol)
 - [Codex Plugins](#codex-plugins)
 - [SDKs and Starters](#sdks-and-starters)
@@ -38,6 +39,16 @@
 - [Claude Code Security](https://www.anthropic.com/news/claude-code-security) - Anthropic's security model and threat analysis for Claude Code.
 - [Ralph Wiggum Mode](https://awesomeclaude.ai/ralph-wiggum) - Iterative Ralph loop technique and plugin reference for Claude Code.
 
+## OpenAI Codex
+
+- [Codex Documentation](https://developers.openai.com/codex) - Official OpenAI docs for Codex app, IDE extension, CLI, web, integrations, configuration, security, and plugins.
+- [Codex Pricing](https://developers.openai.com/codex/pricing) - Plan access, usage limits, and pricing details for Codex across supported surfaces.
+- [Codex CLI](https://developers.openai.com/codex/cli) - OpenAI's terminal coding agent for reading, editing, running, and reviewing code locally.
+- [Codex IDE Extension](https://developers.openai.com/codex/ide) - Official IDE integration for VS Code-compatible editors and JetBrains IDEs, including local pairing and Codex Cloud delegation.
+- [Codex Plugins](https://developers.openai.com/codex/plugins) - Official guide to discovering, installing, enabling, and using Codex plugins.
+- [Build Codex Plugins](https://developers.openai.com/codex/plugins/build) - Official guide for plugin manifests, bundled skills, MCP servers, apps, hooks, assets, and marketplace setup.
+- [Codex Open Source](https://developers.openai.com/codex/open-source) - OpenAI-maintained reference for open source Codex components and releases.
+
 ## Model Context Protocol
 
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open protocol for connecting AI assistants to tools, data sources, and services.
@@ -49,6 +60,7 @@
 
 ## Codex Plugins
 
+- [Codex Plugin for Claude Code](https://github.com/openai/codex-plugin-cc#readme) - Official OpenAI plugin that lets Claude Code users run Codex reviews or delegate tasks through their local Codex CLI and app server.
 - [Ralph Loop Codex Plugin](https://github.com/Andersonlimahw/awesome-codex/tree/main/plugins/ralph-loop) - Local dual-runtime plugin that keeps Claude Code functional and adds Codex CLI and Codex App support.
 - [Ralph Loop Implementation Plan](https://github.com/Andersonlimahw/awesome-codex/blob/main/docs/ai/plans/2026-05-01-ralph-loop-codex-adaptation.md) - Detailed Codex adaptation plan with persistence model, architecture, tests, and install flow.
 - [Awesome Codex Marketplace](https://github.com/Andersonlimahw/awesome-codex/blob/main/.agents/plugins/marketplace.json) - Repo-local Codex marketplace manifest for installing the Ralph Loop plugin.
@@ -79,6 +91,8 @@
 
 ## Extensions and Integrations
 
+- [Codex for VS Code](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) - Official OpenAI Codex extension for VS Code-compatible editors.
+- [Codex for JetBrains IDEs](https://blog.jetbrains.com/ai/2026/01/codex-in-jetbrains-ides/) - OpenAI Codex integration for JetBrains IDEs.
 - [Claude Code Chat](https://github.com/andrepimenta/claude-code-chat#readme) - Native chat interface for Claude Code inside VS Code.
 - [Claude Code Theme](https://github.com/ashwingopalsamy/claude-code-theme) - Claude-inspired Visual Studio Code theme pack.
 - [Claude VSCode Theme](https://marketplace.visualstudio.com/items?itemName=AlvinUnreal.claude-vscode-theme) - Dark theme collection inspired by Claude AI.
@@ -90,12 +104,16 @@
 
 ## Applications
 
+- [Codex App](https://developers.openai.com/codex/app) - OpenAI's desktop app for managing local and cloud Codex agents, worktrees, reviews, and automations.
+- [Codex Web](https://developers.openai.com/codex/web) - Browser-based Codex surface for delegating cloud tasks and reviewing generated changes.
 - [Claude Desktop](https://claude.ai/download) - Official desktop app for macOS and Windows.
 - [Claude Desktop Debian](https://github.com/aaddrick/claude-desktop-debian#readme) - Unofficial Debian package for Claude Desktop.
 - [Claude.ai](https://claude.ai/new) - Web application for using Claude in the browser.
 
 ## Learning
 
+- [Codex Best Practices](https://developers.openai.com/codex/learn/best-practices) - OpenAI guidance for working effectively with Codex on real development tasks.
+- [Codex Videos](https://developers.openai.com/codex/videos) - Official OpenAI video resources for Codex workflows.
 - [AI Fluency Framework](https://anthropic.skilljar.com/ai-fluency-framework-foundations) - Anthropic course for effective collaboration with AI systems.
 - [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) - Anthropic course for API-based Claude development.
 - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - Anthropic course for Claude Code workflows.
