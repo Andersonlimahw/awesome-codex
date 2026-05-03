@@ -30,6 +30,27 @@
 - [Claude System Cards](https://www.anthropic.com/system-cards) - Safety and capability reports for released Claude models.
 - [Claude Trust Center](https://trust.anthropic.com) - Security, privacy, and compliance information for Anthropic products.
 
+## Onboarding & Setup
+
+To get the most out of Claude Code and Codex with maximum performance and minimum token usage, we recommend the following setup:
+
+1. **Install Optimization Skills**:
+   ```bash
+   # Install essential skills for context management and compression
+   gemini skill install skills-selector smart-dispatch caveman
+   ```
+2. **Install RTK (Rust Token Killer)**:
+   - Use the `rtk` proxy to save up to 90% of tokens on common CLI operations.
+   - Run `rtk gain` to see your savings.
+
+## Optimization & Token Savings
+
+- [Caveman](https://github.com/Andersonlimahw/caveman) - Ultra-compressed communication mode that cuts token usage by ~75% while keeping full technical accuracy.
+- [RTK (Rust Token Killer)](https://github.com/Andersonlimahw/rtk) - High-performance CLI proxy that filters redundant output from dev tools to save context.
+- [Skills Selector](https://github.com/Andersonlimahw/skills-selector) - Mandatory gatekeeper skill that runs first to decide which heavy skills should be loaded.
+- [Smart Dispatch](https://github.com/Andersonlimahw/smart-dispatch) - Automatically routes tasks to the optimal AI agent, model, or provider based on complexity and cost.
+- [Context Compressor](https://github.com/Andersonlimahw/context-compressor) - Tool for summarizing long chat histories into dense, machine-readable context blocks.
+
 ## Claude Code
 
 - [Claude Code Documentation](https://code.claude.com/docs/en/overview) - Official docs for the terminal coding agent, memory, hooks, slash commands, and IDE integration.
